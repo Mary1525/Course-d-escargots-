@@ -16,10 +16,8 @@ class Escargot{
     public:
 
         std::string getNom();
-        void setNom(std::string nom);
 
         std::string getLook();
-        void setLook(std::string look);
 
         int getMotiv();
         void setMotiv(int motiv);
@@ -35,9 +33,9 @@ class Escargot{
 
         void avancer();
         void motiver();
-        void victoire();
+        void affichePiste();
     
-    Escargot(std::string nom,std::string look,int nbr,int motiv,int speed,int km);
+    Escargot(std::string nom,int motiv,int speed);
 };
 
 
